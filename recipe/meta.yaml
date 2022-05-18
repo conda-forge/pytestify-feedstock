@@ -1,5 +1,5 @@
 {% set name = "pytestify" %}
-{% set version = "1.4.0" %}
+{% set version = "1.4.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytestify-{{ version }}.tar.gz
-  sha256: 11305820bddcf96d5141c29bca4b208e7c348661d15b501ecf761e90e29ab096
+  sha256: 2bacdd170fce23dab5a437bf96ccbcef7ce52ed6e499724b2ad3b18e565049e4
 
 build:
   number: 0
